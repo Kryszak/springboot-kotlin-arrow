@@ -28,7 +28,7 @@ repositories {
 
 dependencies {
     implementation "org.springframework.boot:spring-boot-starter-web"
-    implementation "org.codehaus.groovy:groovy"
+    
     implementation "io.arrow-kt:arrow-core:$arrowVersion"
 
     compileOnly "org.projectlombok:lombok"
