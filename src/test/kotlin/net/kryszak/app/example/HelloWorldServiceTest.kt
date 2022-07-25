@@ -1,4 +1,4 @@
-package net.kryszak.wip.example
+package net.kryszak.app.example
 
 import io.kotest.assertions.arrow.core.shouldBeRight
 import org.junit.jupiter.api.Test

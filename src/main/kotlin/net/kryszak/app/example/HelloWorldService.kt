@@ -1,4 +1,4 @@
-package net.kryszak.wip.example
+package net.kryszak.app.example
 
 import arrow.core.Either
 import org.springframework.stereotype.Service

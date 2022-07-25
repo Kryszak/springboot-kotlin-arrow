@@ -1,4 +1,4 @@
-package net.kryszak.wip.example
+package net.kryszak.app.example
 
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.GetMapping

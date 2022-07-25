@@ -1,11 +1,11 @@
-package net.kryszak.wip
+package net.kryszak.app
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class WipApplication
+class Application
 
 fun main(args: Array<String>) {
-    runApplication<WipApplication>(*args)
+    runApplication<Application>(*args)
 }

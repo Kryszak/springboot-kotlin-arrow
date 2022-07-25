@@ -1,8 +1,8 @@
-package net.kryszak.wip
+package net.kryszak.app
 
 import org.junit.jupiter.api.Test
 
-class WipApplicationTest : BaseIntegrationTest() {
+class SmokeApplicationTest : BaseIntegrationTest() {
 
     @Test
     fun shouldLoadContext() {
