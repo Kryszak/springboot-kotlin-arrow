@@ -1,4 +1,4 @@
-package net.kryszak.app
+package net.kryszak.app.infrastructure
 
 import org.junit.jupiter.api.Test
 

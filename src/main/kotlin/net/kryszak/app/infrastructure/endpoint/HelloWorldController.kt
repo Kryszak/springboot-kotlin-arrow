@@ -1,5 +1,6 @@
-package net.kryszak.app.example
+package net.kryszak.app.infrastructure.endpoint
 
+import net.kryszak.app.domain.HelloWorldService
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestMapping
