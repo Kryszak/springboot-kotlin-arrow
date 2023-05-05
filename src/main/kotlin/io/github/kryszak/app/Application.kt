@@ -1,4 +1,4 @@
-package net.kryszak.app
+package io.github.kryszak.app
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

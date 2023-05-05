@@ -1,4 +1,4 @@
-package net.kryszak.app
+package io.github.kryszak.app
 
 import com.tngtech.archunit.junit.AnalyzeClasses
 import com.tngtech.archunit.junit.ArchTest

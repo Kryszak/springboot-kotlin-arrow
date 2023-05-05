@@ -1,8 +1,8 @@
-package net.kryszak.app.infrastructure.configuration
+package io.github.kryszak.app.infrastructure.configuration
 
-import net.kryszak.app.adapter.ExampleHelloAdapter
-import net.kryszak.app.domain.HelloAdapter
-import net.kryszak.app.domain.HelloWorldService
+import io.github.kryszak.app.adapter.ExampleHelloAdapter
+import io.github.kryszak.app.domain.HelloAdapter
+import io.github.kryszak.app.domain.HelloWorldService
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
 

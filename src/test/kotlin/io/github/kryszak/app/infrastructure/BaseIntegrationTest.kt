@@ -1,4 +1,4 @@
-package net.kryszak.app.infrastructure
+package io.github.kryszak.app.infrastructure
 
 import org.springframework.boot.test.context.SpringBootTest
 import org.springframework.test.context.ActiveProfiles
