@@ -1,4 +1,4 @@
-package net.kryszak.app.domain
+package io.github.kryszak.app.domain
 
 import arrow.core.Either
 import io.kotest.assertions.arrow.core.shouldBeRight

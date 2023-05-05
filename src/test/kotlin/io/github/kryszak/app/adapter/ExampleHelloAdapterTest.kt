@@ -1,4 +1,4 @@
-package net.kryszak.app.adapter
+package io.github.kryszak.app.adapter
 
 import io.kotest.assertions.arrow.core.shouldBeRight
 import org.junit.jupiter.api.Test
