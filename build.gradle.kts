@@ -8,7 +8,7 @@ plugins {
     jacoco
 }
 
-group = "net.kryszak"
+group = "io.github.kryszak"
 version = "0.0.1-SNAPSHOT"
 
 val kotestVersion = "5.6.1"
