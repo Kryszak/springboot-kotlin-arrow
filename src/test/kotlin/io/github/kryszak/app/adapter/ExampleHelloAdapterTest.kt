@@ -1,12 +1,11 @@
 package io.github.kryszak.app.adapter
 
 import io.kotest.assertions.arrow.core.shouldBeRight
-import org.junit.jupiter.api.Test
+import io.kotest.core.spec.style.ShouldSpec
 
-internal class ExampleHelloAdapterTest {
+internal class ExampleHelloAdapterTest : ShouldSpec({ 
 
-    @Test
-    fun `should return expected value`() {
+    should("Return expected value") {
         //given
         val adapter = ExampleHelloAdapter()
 
@@ -14,6 +13,6 @@ internal class ExampleHelloAdapterTest {
         val result = adapter.callAdapter()
 
         //then
-        result.shouldBeRight("Hello from the adapter!")
+        result shouldBeRight "Hello from the adapter!"
     }
-}
+})
