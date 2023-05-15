@@ -2,9 +2,9 @@ package io.github.kryszak.app.domain
 
 import arrow.core.Either
 import io.kotest.assertions.arrow.core.shouldBeRight
+import io.kotest.core.spec.style.ShouldSpec
 import io.mockk.every
 import io.mockk.mockk
-import org.junit.jupiter.api.Test
 
 class HelloWorldServiceTest : ShouldSpec({
 

@@ -1,7 +1,7 @@
 package io.github.kryszak.app.adapter
 
 import io.kotest.assertions.arrow.core.shouldBeRight
-import org.junit.jupiter.api.Test
+import io.kotest.core.spec.style.ShouldSpec
 
 internal class ExampleHelloAdapterTest : ShouldSpec({ 
 
