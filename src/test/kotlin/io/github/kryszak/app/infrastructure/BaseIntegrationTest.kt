@@ -5,4 +5,6 @@ import org.springframework.test.context.ActiveProfiles
 
 @SpringBootTest
 @ActiveProfiles("test")
-class BaseIntegrationTest
+class BaseIntegrationTest : ShouldSpec() {
+    override fun extensions() = listOf(SpringExtension)
+}

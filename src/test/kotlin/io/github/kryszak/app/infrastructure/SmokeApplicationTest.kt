@@ -4,7 +4,8 @@ import org.junit.jupiter.api.Test
 
 class SmokeApplicationTest : BaseIntegrationTest() {
 
-    @Test
-    fun shouldLoadContext() {
+    init {
+        should("load context") {
+        }
     }
 }
