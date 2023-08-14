@@ -16,7 +16,7 @@ val kotestArrowExtensionVersion = "1.3.3"
 val kotestSpringExtensionVersion = "1.1.3"
 val mockkVersion = "1.13.5"
 val arrowVersion = "1.2.0"
-val archunitVersion = "1.0.1"
+val archunitVersion = "1.1.0"
 
 kotlin {
     jvmToolchain {
