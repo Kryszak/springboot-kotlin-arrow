@@ -15,7 +15,7 @@ val kotestVersion = "5.7.1"
 val kotestArrowExtensionVersion = "1.3.3"
 val kotestSpringExtensionVersion = "1.1.3"
 val mockkVersion = "1.13.7"
-val arrowVersion = "1.2.0"
+val arrowVersion = "1.2.1"
 val archunitVersion = "1.1.0"
 
 kotlin {
