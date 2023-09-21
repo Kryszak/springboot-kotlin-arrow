@@ -46,23 +46,23 @@ dependencies {
     testImplementation("com.tngtech.archunit:archunit-junit5-engine:$archunitVersion")
 }
 
-tasks.test {
-    useJUnitPlatform()
-    finalizedBy(tasks.jacocoTestReport)
-}
-
-tasks.withType<Jar>() {
-    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+tasks {
+    test {
+        useJUnitPlatform()
+        finalizedBy(jacocoTestReport)
+    }
+    withType<Jar>() {
+        duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    }
+    jacocoTestReport {
+        dependsOn(test)
+        reports {
+            xml.required.set(true)
+            html.required.set(false)
+        }
+    }
 }
 
 jacoco {
     toolVersion = "0.8.9"
-}
-
-tasks.jacocoTestReport {
-    dependsOn(tasks.test)
-    reports {
-        xml.required.set(true)
-        html.required.set(false)
-    }
 }
