@@ -11,9 +11,8 @@ plugins {
 group = "io.github.kryszak"
 version = "0.0.1-SNAPSHOT"
 
-val kotestVersion = "5.9.1"
+val kotestVersion = "6.0.0"
 val kotestArrowExtensionVersion = "2.0.0"
-val kotestSpringExtensionVersion = "1.3.0"
 val mockkVersion = "1.14.5"
 val arrowVersion = "2.1.2"
 val archunitVersion = "1.4.1"
@@ -37,7 +36,7 @@ dependencies {
 
     testImplementation("io.kotest:kotest-runner-junit5-jvm:$kotestVersion")
     testImplementation("io.kotest:kotest-assertions-core-jvm:$kotestVersion")
-    testImplementation("io.kotest.extensions:kotest-extensions-spring:$kotestSpringExtensionVersion")
+    testImplementation("io.kotest:kotest-extensions-spring:$kotestVersion")
     testImplementation("io.kotest.extensions:kotest-assertions-arrow:$kotestArrowExtensionVersion")
 
     testImplementation("io.mockk:mockk:$mockkVersion")
