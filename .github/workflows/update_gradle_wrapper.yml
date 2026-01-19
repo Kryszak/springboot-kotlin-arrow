@@ -3,7 +3,8 @@ name: Update Gradle Wrapper
 on:
   schedule:
     - cron: "0 0 * * 1" # every monday at midnight
-
+  workflow_dispatch:
+  
 jobs:
   update-gradle-wrapper:
     runs-on: ubuntu-latest
